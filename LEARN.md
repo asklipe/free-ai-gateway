@@ -481,7 +481,18 @@ npm test
 # Run typechecks across all monorepo packages
 npm run typecheck
 ```
+## Python + LangChain Example
 
+A complete Python integration example is available in
+[`examples/python-langchain`](examples/python-langchain/).
+
+It demonstrates:
+
+- The OpenAI-compatible API
+- Capability routing with `auto:text`
+- Capability routing with `auto:reasoning`
+- LangChain integration
+- Streaming responses
 ---
 
 ## 🤝 Community & Contributing
